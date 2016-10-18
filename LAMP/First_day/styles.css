@@ -1,0 +1,261 @@
+*{
+	margin: 0px auto;
+	padding: 0px;
+	font-family: "Tahoma";
+	/*border: 1px dotted red;*/
+}
+
+#body{
+	width: 970px;
+}
+#header{
+	width: 960px;
+	margin: 0px auto;
+}
+#main_content{
+	width:960px;
+	background-color: lightgrey;
+}
+	#left_content, #center_content, #right_content{
+		display: inline-block;
+		vertical-align: top;
+	}
+	#left_content{
+		width: 200px;
+	}
+	#center_content{
+		width: 450px;
+		background-color: white;
+	}
+	#right_content{
+		width: 275px;
+	}
+	.middle_image{
+		width: 200px;
+		display: inline-block;
+		vertical-align: top;
+		margin-left: 15px;
+	}
+	.middle_image:first-child{
+		border-right: 1px solid lightgrey;
+	}
+	.middle_image h2{
+		font-size: 16px;
+	}
+	.middle_image p{
+		color: lightgrey;
+		margin-top: 15px;
+	}
+	.middle_image li{
+		color: lightgrey;
+	}
+	.middle_image a{
+		text-decoration: none;
+		color: lightgrey;
+		font-size: 12px;
+	}
+	.middle_image ul{
+		list-style-type: none;
+		margin-top: 15px;
+	}
+	.middle_image h3{
+		font-size: 14px;
+		font-weight: thin;
+	}
+#top_content img,#bottom_content img{
+	width: 450px;
+	height: 200px;
+}
+
+
+
+/*<!--Joseph-->*/
+
+#top_nav{
+	width: 970px;
+	background-color: rgb(234,234,234);
+}
+	#top_nav #events{
+		width: 100px;
+		height: 30px;
+		margin: 10px -25px 0px 35px;
+		border: 1px solid #aaa;
+		border-radius: 5px;
+		background-color: rgb(250,250,250);
+		vertical-align: top;
+	}
+	#top_nav #arrow_1, #top_nav #arrow_2{
+		background-color: none;
+		display: inline-block;
+		vertical-align: top;
+	}
+		#top_nav #arrow_1{
+		height: 50px;
+		width: 65px;
+		margin: 0px 35px 0px 25px;
+	}
+		#top_nav #arrow_2{
+			height: 50px;
+			width: 103px;
+		}
+			#top_nav #arrow_2 p{
+				text-align: left;
+				margin-left: 10px;
+				font-size: 20px;
+				color: rgb(38,38,38);
+			}
+		#top_nav img{
+		margin-left: -40px;
+		display: inline-block;
+	}
+
+	#bottom_nav{
+		width: 970px;
+		height: 90px;
+		background-color: rgb(29,29,29);
+	}
+	#nav_bar ul, #nav_bar li, #bottom_nav img{
+		display: inline-block;
+	}
+	#nav_bar a{
+		text-decoration: none;
+		list-style: none;
+		color: white;
+		margin-left: 20px;
+	}
+	#bottom_score{
+		margin-left: 500px;
+		padding: 5px;
+	}
+
+
+
+
+/*<!--Duncan-->	*/
+
+#leftside{
+	width: 200px;
+	display: inline-block;
+}
+	#leftside h2{
+		display: inline-block;
+		vertical-align: top;
+		font-size: 14px;
+	}
+	#leftside h3{
+		display: inline-block;
+		vertical-align: top;
+		font-size: 13px;
+	}
+	#leftside a{
+		position: relative;
+		left: 75px;
+		width: 200px;
+	}
+	#leftside img{
+		height: 14px;
+		width: 14px;
+	}
+
+#login{
+	display: inline-block;
+	vertical-align: top;
+	width: 200px;
+}	
+	#login p{
+		text-align: center;
+		font-size: 11px;
+	}
+	#login button{
+		display: block;
+
+	}
+
+#nm{
+	width: 200px;
+	display: inline-block;
+}
+
+	#nm img{
+		display: inline-block;
+		height: 30px;
+		width: 30px;
+	}
+	#nm h2{
+		margin-left: 10px;
+	}
+	#nm a{
+		position: relative;
+		left: 180px;
+		bottom: 45px;
+		text-decoration: none;
+	}
+	.ncaam{
+		position: relative;
+		left: 44px;
+		bottom: 20px;
+		font-size: 9px;
+	}
+	#nm button{
+		display: inline-block;
+		vertical-align: top;
+		margin-left: 30px;
+	}
+		#tue{
+			width: 200px;
+			display: inline-block;
+			vertical-align: top;
+			background-color: rgb(246,246,246);
+		}
+			#topp{
+				display: inline-block;
+				vertical-align: top;
+				width: 200px;
+				border-bottom: solid 1px rgb(234,234,234);
+			}
+				#topp h2{
+					margin-left: 40px;
+					margin-right: 40px;
+				}
+			#tue img{
+				height: 12px;
+				width: 12px;
+			}	
+			#tue span{
+				font-size: 12px;
+				margin-left: 125px;
+			}	
+
+#rightside{
+		display: inline-block;
+		vertical-align: top;
+		width: 300px;
+}
+	#rightside h3{
+		display: inline-block;
+		vertical-align: top;
+		font-size: 14px;
+	}
+
+#gronk{
+	display: inline-block;
+	vertical-align: top;
+	width: 300px;
+}	
+	#gronk p{
+		margin: 5px;
+	}		
+	#gronk img{
+		display: inline-block;
+		vertical-align: top;
+		height: 200px;
+		width: 300px;
+	}
+	#gronk a{
+		position: relative;
+		left: 250px;
+		bottom: 25px;
+		text-decoration: none;
+	}
+
+
